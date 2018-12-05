@@ -29,6 +29,8 @@ apt-get install -y pkg-config automake autoconf cmake libtool git zmq zeromq
 ```
 
 **Build libsodium if needed**
+
+
 Only do this if get libsodium build errors when compiling libindy
 ```bash
 curl -sSLO https://github.com/jedisct1/libsodium/releases/download/1.0.14/libsodium-1.0.14.tar.gz
@@ -40,6 +42,8 @@ make && make install
 ```
 
 **Build ZMQ if needed**
+
+
 Only do this if get zmq build errors when compiling libindy
 ```bash
 curl -sSLO https://github.com/zeromq/libzmq/releases/download/v4.2.5/zeromq-4.2.5.tar.gz
@@ -90,6 +94,8 @@ brew install zeromq
 ```
 
 **Build libsodium if needed**
+
+
 Only do this if get libsodium build errors when compiling libindy
 ```bash
 curl -sSLO https://github.com/jedisct1/libsodium/releases/download/1.0.14/libsodium-1.0.14.tar.gz
@@ -101,6 +107,8 @@ make && make install
 ```
 
 **Build ZMQ if needed**
+
+
 Only do this if get zmq build errors when compiling libindy
 ```bash
 curl -sSLO https://github.com/zeromq/libzmq/releases/download/v4.2.5/zeromq-4.2.5.tar.gz
