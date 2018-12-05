@@ -25,7 +25,7 @@ sudo apt-get install -y libindy
 Install build tools
 ```bash
 apt-get update
-apt-get install -y pkg-config automake autoconf cmake libtool git zmq zeromq
+apt-get install -y pkg-config automake autoconf cmake libtool git libzmq5
 ```
 
 **Build libsodium**
