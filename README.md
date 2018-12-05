@@ -65,7 +65,7 @@ source ~/.cargo/env
 git clone https://github.com/hyperledger/indy-sdk.git
 cd indy-sdk/libindy
 git checkout tags/v1.6.8
-cargo build —release
+cargo build --release
 ```
 
 **Install libindy**
@@ -130,7 +130,7 @@ source ~/.cargo/env
 git clone https://github.com/hyperledger/indy-sdk.git
 cd indy-sdk/libindy
 git checkout tags/v1.6.8
-cargo build —release
+cargo build —-release
 ```
 
 **Install libindy**
@@ -151,7 +151,7 @@ sudo cp target/release/libindy.dylib /usr/local/lib/
 git clone https://github.com/hyperledger/indy-sdk.git
 cd indy-sdk/libindy
 git checkout tags/v1.6.8
-cargo build —release
+cargo build —-release
 ```
 
 Add to your **PATH** environment variable the path to target/release/libindy.dll
