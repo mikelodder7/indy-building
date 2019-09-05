@@ -111,9 +111,9 @@ make && make install
 
 Only needed if zmq build errors happen when compiling libindy
 ```bash
-curl -sSLO https://github.com/zeromq/libzmq/releases/download/v4.2.5/zeromq-4.2.5.tar.gz
-tar xf zeromq-4.2.5.tar.gz
-cd zeromq-4.2.5
+curl -sSLO https://github.com/zeromq/libzmq/releases/download/v4.3.2/zeromq-4.3.2.tar.gz
+tar xf zeromq-4.3.2.tar.gz
+cd zeromq-4.3.2
 ./autogen.sh
 ./configure --prefix=/usr/local --enable-static --with-libsodium=/usr/local
 make && make install
