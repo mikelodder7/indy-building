@@ -33,9 +33,9 @@ apt-get install -y pkg-config automake autoconf cmake libtool git libzmq5
 
 Only needed if libsodium build errors happen when compiling libindy
 ```bash
-curl -sSLO https://github.com/jedisct1/libsodium/releases/download/1.0.14/libsodium-1.0.14.tar.gz
-tar xf libsodium-1.0.14.tar.gz
-cd libsodium-1.0.14
+curl -sSLO https://github.com/jedisct1/libsodium/releases/download/1.0.17/libsodium-1.0.17.tar.gz
+tar xf libsodium-1.0.17.tar.gz
+cd libsodium-1.0.17
 ./autogen.sh
 ./configure --prefix=/usr/local
 make && make install
@@ -46,9 +46,9 @@ make && make install
 
 Only needed if zmq build errors happen when compiling libindy
 ```bash
-curl -sSLO https://github.com/zeromq/libzmq/releases/download/v4.2.5/zeromq-4.2.5.tar.gz
-tar xf zeromq-4.2.5.tar.gz
-cd zeromq-4.2.5
+curl -sSLO https://github.com/zeromq/libzmq/releases/download/v4.3.2/zeromq-4.3.2.tar.gz
+tar xf zeromq-4.3.2.tar.gz
+cd zeromq-4.3.2
 ./autogen.sh
 ./configure --prefix=/usr/local --enable-static --with-libsodium=/usr/local
 make && make install
@@ -64,7 +64,7 @@ source ~/.cargo/env
 ```bash
 git clone https://github.com/hyperledger/indy-sdk.git
 cd indy-sdk/libindy
-git checkout tags/v1.6.8
+git checkout tags/v1.11.1
 cargo build --release
 ```
 
@@ -129,7 +129,7 @@ source ~/.cargo/env
 ```bash
 git clone https://github.com/hyperledger/indy-sdk.git
 cd indy-sdk/libindy
-git checkout tags/v1.6.8
+git checkout tags/v1.11.1
 cargo build —-release
 ```
 
@@ -150,7 +150,7 @@ sudo cp target/release/libindy.dylib /usr/local/lib/
 ```bash
 git clone https://github.com/hyperledger/indy-sdk.git
 cd indy-sdk/libindy
-git checkout tags/v1.6.8
+git checkout tags/v1.11.1
 cargo build —-release
 ```
 
